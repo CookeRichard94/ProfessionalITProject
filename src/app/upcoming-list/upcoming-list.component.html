@@ -1,3 +1,18 @@
-<p>
-  upcoming-list works!
-</p>
+<mat-toolbar color="warn">Upcoming Destinations List</mat-toolbar>
+<mat-accordion multi="true" *ngIf="upcoming.length > 0">
+  <mat-expansion-panel [expanded]="false" *ngFor="let upcoming1 of upcoming">
+    
+    <mat-expansion-panel-header>
+    <b>Country:</b>  {{ upcoming1.country }}
+    </mat-expansion-panel-header>
+    <p><b>City</b></p>
+    <p>{{ upcoming1.city }}</p>
+    <p><b>Country</b></p>
+    <p>{{ upcoming1.year }}</p>
+    <mat-action-row>
+      <button mat-button [routerLink]="['/edit2', upcoming1._id]" color="primary">EDIT</button>
+      <button mat-button color="warn" (click) = "onDelete(upcoming1._id)">DELETE</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>
+<p class="info-text mat-body-1" *ngIf="upcoming.length <= 0">No upcoming trips planned yet!</p> 
