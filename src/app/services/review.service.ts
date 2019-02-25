@@ -6,7 +6,7 @@ import {Post} from '../review.model';
 @Injectable({
   providedIn: 'root'
 })
-export class PostService {
+export class ReviewService {
 
   constructor(private http: HttpClient) { }
 
