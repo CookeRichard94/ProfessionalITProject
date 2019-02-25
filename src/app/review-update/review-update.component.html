@@ -1,3 +1,55 @@
-<p>
-  review-update works!
-</p>
+<mat-toolbar color="warn">Edit Review!</mat-toolbar>
+<mat-card>
+  <h3>Enter destination(Country)</h3>
+  <form (submit)="onEditPost(postForm)" #postForm="ngForm">
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="title"
+        ngModel ={{post.title}}
+        required
+        minlength="3"
+        #title="ngModel">
+      <mat-error *ngIf="title.invalid">Please enter a Country.</mat-error>
+    </mat-form-field>
+    <h3>Enter destination(City)</h3>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="city"
+        ngModel ={{post.city}}
+        required
+        minlength="3"
+        #title="ngModel">
+      <mat-error *ngIf="title.invalid">Please enter a city.</mat-error>
+    </mat-form-field>
+    <h3>Enter Review</h3>
+    <mat-form-field>
+      <textarea
+        matInput
+        rows="4"
+        name="content"
+        ngModel={{post.content}}
+        required
+        #content="ngModel"></textarea>
+      <mat-error *ngIf="content.invalid">Please enter a review.</mat-error>
+    </mat-form-field>
+    <h3>Enter rating(1-5)</h3>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="rating"
+        ngModel ={{post.rating}}
+        required
+        #title="ngModel">
+      <mat-error *ngIf="title.invalid">Please enter a numerical rating from 1-5.</mat-error>
+    </mat-form-field>
+    <button
+      mat-raised-button
+      color="accent"
+      type="submit">Update Post</button>
+  </form>
+</mat-card>
