@@ -1,3 +1,19 @@
-<p>
-  review-list works!
-</p>
+<mat-toolbar color="warn">Reviews List</mat-toolbar>
+<mat-accordion multi="true" *ngIf="posts.length > 0">
+  <mat-expansion-panel [expanded]="false" *ngFor="let post of posts">
+    <mat-expansion-panel-header>
+      <b>Country:</b> {{ post.title }}
+    </mat-expansion-panel-header>
+    <b>City:</b>
+    <p>{{ post.city }}</p>
+    <b>Review:</b>
+    <p>{{ post.content }}</p>
+    <b>Rating:</b>
+    <p>{{post.rating}}</p>
+    <mat-action-row>
+      <button mat-button [routerLink]="['/edit', post._id]" color="primary">EDIT</button>
+      <button mat-button color="warn" (click) = "onDelete(post._id)">DELETE</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>
+<p class="info-text mat-body-1" *ngIf="posts.length <= 0">No reviews added yet!</p> 

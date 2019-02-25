@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {ReviewService} from '../services/review.service';
+import { Observable } from 'rxjs';
+import {Review} from '../review.model';
 
 @Component({
   selector: 'app-review-list',
@@ -7,9 +10,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReviewListComponent implements OnInit {
 
-  constructor() { }
+  posts: any = [];
 
-  ngOnInit() {
-  }
+  constructor(private ps:ReviewService){}
 
+  ngOnInit(){
+
+    this.ps.getPostsData().subscribe(data => {
+        this.posts = data;
+    });
+
+
+   }
+
+   onDelete(id:String){
+    console.log("Delete called " + id);
+    this.ps.deletePost(id).subscribe(() =>
+    {
+      this.ngOnInit();
+    });
+
+   }
 }
+
+

@@ -1,4 +1,4 @@
-export interface Post {
+export interface Review {
   title: string;
   content: string;
   city: string;
