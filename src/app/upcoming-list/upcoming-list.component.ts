@@ -34,4 +34,4 @@ export class UpcomingListComponent implements OnInit {
 
 }
 
-}
+

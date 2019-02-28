@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import {PostService} from './services/review.service';
+import {ReviewService} from './services/review.service';
 import {HttpClientModule} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes} from '@angular/router';
@@ -21,13 +21,38 @@ import { UpcomingListComponent } from './upcoming-list/upcoming-list.component';
 import { UpcomingAddComponent } from './upcoming-add/upcoming-add.component';
 
 const appRoutes: Routes = [
+  {
+    path: 'review',
+    component: ReviewListComponent
+  },
+  {
+    path: 'addreview',
+    component: ReviewAddComponent
+  },
+  {
+    path: 'edit/:id',
+    component: ReviewUpdateComponent
+  },
+  {
+    path: 'addUpcoming',
+    component: UpcomingAddComponent
+  },
+  {
+  path: 'upcoming',
+  component: UpcomingListComponent
+  },
+  {
+    path: 'edit2/:id',
+    component: UpcomingUpdateComponent
+  }
+  
+
 ];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostDetailsComponent,
     ReviewListComponent,
     ReviewUpdateComponent,
     ReviewAddComponent,
@@ -51,7 +76,7 @@ const appRoutes: Routes = [
     MatExpansionModule,
     MatMenuModule
   ],
-  providers: [PostService],
+  providers: [ReviewService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

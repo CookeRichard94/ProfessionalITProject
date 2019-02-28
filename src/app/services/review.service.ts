@@ -1,7 +1,7 @@
 import { Injectable, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {Post} from '../review.model';
+import {Review} from '../review.model';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +14,7 @@ export class ReviewService {
     return this.http.get("http://localhost:8081/api/posts");
   }
 
-  private posts: Post[] = [];
+  private posts: Review[] = [];
   //private postsUpdated = new Subject<Post[]>();
 
   getPosts() {
@@ -22,7 +22,7 @@ export class ReviewService {
   }
 
   addPost(title: string, content: string, city: string, rating: number): Observable<any> {
-    const post: Post = {title: title, content: content, city: city, rating:rating};
+    const post: Review = {title: title, content: content, city: city, rating:rating};
     return this.http.post("http://localhost:8081/api/posts",post);
   }
 
@@ -35,7 +35,7 @@ export class ReviewService {
   }
 
   updatePost(id: string, title: string, content: string, city: string, rating:number):Observable<any> {
-    const post: Post = {title: title, content: content, city: city, rating: rating};
+    const post: Review = {title: title, content: content, city: city, rating: rating};
     return this.http.put("http://localhost:8081/api/posts/"+id, post);
   }
 
