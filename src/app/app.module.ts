@@ -19,6 +19,7 @@ import { ReviewAddComponent } from './review-add/review-add.component';
 import { UpcomingUpdateComponent } from './upcoming-update/upcoming-update.component';
 import { UpcomingListComponent } from './upcoming-list/upcoming-list.component';
 import { UpcomingAddComponent } from './upcoming-add/upcoming-add.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const appRoutes: Routes = [
   {
@@ -44,8 +45,11 @@ const appRoutes: Routes = [
   {
     path: 'edit2/:id',
     component: UpcomingUpdateComponent
+  },
+  {
+    path: '**',
+    component: NotFoundComponent
   }
-  
 
 ];
 
@@ -58,7 +62,8 @@ const appRoutes: Routes = [
     ReviewAddComponent,
     UpcomingUpdateComponent,
     UpcomingListComponent,
-    UpcomingAddComponent
+    UpcomingAddComponent,
+    NotFoundComponent
 
   ],
   imports: [

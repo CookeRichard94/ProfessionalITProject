@@ -1,6 +1,6 @@
-<mat-toolbar color="warn">Upcoming Destinations List</mat-toolbar>
+<mat-toolbar class="middle">Upcoming Destinations List</mat-toolbar>
 <mat-accordion multi="true" *ngIf="upcoming.length > 0">
-  <mat-expansion-panel [expanded]="false" *ngFor="let upcoming1 of upcoming">
+  <mat-expansion-panel class="main"[expanded]="false" *ngFor="let upcoming1 of upcoming">
     
     <mat-expansion-panel-header>
     <b>Country:</b>  {{ upcoming1.country }}
@@ -10,8 +10,8 @@
     <p><b>Country</b></p>
     <p>{{ upcoming1.year }}</p>
     <mat-action-row>
-      <button mat-button [routerLink]="['/edit2', upcoming1._id]" color="primary">EDIT</button>
-      <button mat-button color="warn" (click) = "onDelete(upcoming1._id)">DELETE</button>
+      <button mat-button class="edit" [routerLink]="['/edit2', upcoming1._id]" color="primary">EDIT</button>
+      <button mat-button class="delete" (click) = "onDelete(upcoming1._id)">DELETE</button>
     </mat-action-row>
   </mat-expansion-panel>
 </mat-accordion>

@@ -1,1 +1,36 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+mat-form-field,
+textarea {
+  width: 100%;
+}
+
+.middle
+{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+.main
+{
+  background-color: rgba(29, 29, 106, 0.6);
+  border-radius: 20px;
+}
+
+.info-text
+{
+  color: darkorange;
+  font-size: 50px;
+  text-align: center;
+  font-family: Forte;
+}
+
+.edit
+{
+  background-color: limegreen;
+  color: black;
+}
+
+.delete
+{
+  background-color: crimson;
+  color:black;
+}

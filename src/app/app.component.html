@@ -1,18 +1,21 @@
-
-<mat-toolbar color="accent">
+<body>
+<mat-toolbar class="top">
   <mat-toolbar-row>
-          <span class="title-center">
-          My Destination App
+  <span class="title-center">
+    <div class="main">My Destination App</div>
   </span>
   </mat-toolbar-row>
 
-  <mat-toolbar-row>
-
-    <button mat-button [routerLink]="['/upcoming']" color="Warn">Upcoming Destinations</button>
-    <button mat-button [routerLink]="['/addUpcoming']" color="Warn">Add Destination</button>
-    <button mat-button [routerLink]="['/review']">Reviews</button>
-    <button mat-button [routerLink]="['/addreview']">Add a Review</button>
+  <mat-toolbar-row >
+    <div class="text">
+    <button class="btn1" mat-button [routerLink]="['/upcoming']" >Upcoming Destinations</button>
+    <button class="btn1" mat-button [routerLink]="['/addUpcoming']">Add Destination</button>
+    <button class="btn1" mat-button [routerLink]="['/review']">Reviews</button>
+    <button class="btn1" mat-button [routerLink]="['/addreview']">Add a Review</button>
+    </div>
   </mat-toolbar-row>
+
 </mat-toolbar>
 
 <router-outlet></router-outlet>
+</body>
