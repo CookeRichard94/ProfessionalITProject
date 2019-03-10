@@ -1,7 +1,27 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
-
-
 mat-form-field,
 textarea {
   width: 100%;
+}
+
+.middle
+{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+.main
+{
+  background-color: rgba(29, 29, 106, 0.6);
+  border-radius: 20px;
+}
+
+.btn
+{
+  background-color: burlywood;
+  color: black;
+}
+
+.error
+{
+  color: darkorange;
 }

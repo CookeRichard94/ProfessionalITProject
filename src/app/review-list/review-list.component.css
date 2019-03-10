@@ -15,21 +15,22 @@ textarea {
   border-radius: 20px;
 }
 
-.btn
-{
-  background-color: burlywood;
-  color: black;
-}
-
-.error
-{
-  color: darkorange;
-}
-
 .info-text
 {
   color: darkorange;
   font-size: 50px;
   text-align: center;
   font-family: Forte;
+}
+
+.edit
+{
+  background-color: limegreen;
+  color: black;
+}
+
+.delete
+{
+  background-color: crimson;
+  color:black;
 }

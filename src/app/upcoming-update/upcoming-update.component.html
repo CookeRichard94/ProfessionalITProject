@@ -1,5 +1,5 @@
-<mat-toolbar color="warn">Edit Upcoming Destination!</mat-toolbar>
-<mat-card>
+<mat-toolbar class="middle">Edit Upcoming Destination!</mat-toolbar>
+<mat-card class="main">
   <h3>Enter destination(Country)</h3>
   <form (submit)="onEditPost(upcomingForm)" #upcomingForm="ngForm">
     <mat-form-field>
@@ -11,7 +11,7 @@
         required
         minlength="3"
         #title="ngModel">
-      <mat-error *ngIf="title.invalid">Please enter the country.</mat-error>
+      <mat-error class="error" *ngIf="title.invalid">Please enter the country.</mat-error>
     </mat-form-field>
     <h3>Enter destination(City)</h3>
     <mat-form-field>
@@ -23,7 +23,7 @@
         required
         minlength="3"
         #title="ngModel">
-      <mat-error *ngIf="title.invalid">Please enter the city.</mat-error>
+      <mat-error class="error" *ngIf="title.invalid">Please enter the city.</mat-error>
     </mat-form-field>
     <h3>Enter proposed year of journey</h3>
     <mat-form-field>
@@ -34,11 +34,11 @@
         ngModel ={{upcoming.year}}
         required
         #title="ngModel">
-      <mat-error *ngIf="title.invalid">Please enter the year of your journey</mat-error>
+      <mat-error class="error" *ngIf="title.invalid">Please enter the year of your journey</mat-error>
     </mat-form-field>
     <button
       mat-raised-button
-      color="accent"
+      class="btn"
       type="submit">Update Post</button>
   </form>
 </mat-card>
