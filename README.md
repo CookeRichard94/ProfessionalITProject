@@ -6,6 +6,10 @@ This project was made by Ricahrd Cooke and Niema Attarian as part of our Profess
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
 
+## Cloning the Repository
+
+Open the command line. Navigate to a designated folder. Enter the command 'Git Clone https://github.com/CookeRichard94/ProfessionalITProject'. Enter the command 'code .' to open the cloned project in Visual Studio Code.
+
 ## Running the Program and Server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
