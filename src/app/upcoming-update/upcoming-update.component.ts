@@ -1,3 +1,4 @@
+//Imports
 import { Component, OnInit } from '@angular/core';
 import {Router, ActivatedRoute} from '@angular/router';
 import {UpcomingService} from '../services/upcoming.service';
@@ -16,8 +17,11 @@ export class UpcomingUpdateComponent implements OnInit {
 
   ngOnInit() {
 
+    //outputs the id to the console window
     console.log(this.route.snapshot.params['id']);
-
+    
+    //displays the information connected to the id of the item
+    //that was passed as a parameter
     this.service.getPost(this.route.snapshot.params['id'])
     .subscribe(data =>
     {
@@ -26,9 +30,11 @@ export class UpcomingUpdateComponent implements OnInit {
   }
 
   onEditPost(form: NgForm){
+    //updates the selected item with the input values
     this.service.updatePost(this.upcoming._id, form.value.country, form.value.city, form.value.year )
     .subscribe(() => 
   {
+      //sends the user back to the upcominglist page
     this.router.navigate(['/upcoming']);
   });
   }
