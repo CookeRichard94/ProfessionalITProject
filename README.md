@@ -8,7 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Cloning the Repository
 
-Open the command line. Navigate to a designated folder. Enter the command 'Git Clone https://github.com/CookeRichard94/ProfessionalITProject'. Enter the command 'code .' to open the cloned project in Visual Studio Code.
+Open the command line. Navigate to a designated folder. Enter the command 'Git Clone https://github.com/CookeRichard94/ProfessionalITProject'. 
+Change directory into the the repository folder and run the following line to download the required Angular materials to run the application 'npm install --save @angular/material @angular/cdk @angular/animations'.
+Enter the command 'code .' to open the cloned project in Visual Studio Code.
 
 ## Running the Program and Server
 
