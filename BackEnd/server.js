@@ -174,7 +174,7 @@ app.delete('/api/posts/:id', function(req,res){
   //outputs the specified items id to the console
   console.log(req.params.id);
 
-  /deletes the specified item by comparing the selected items id to the id mlabs has
+  //deletes the specified item by comparing the selected items id to the id mlabs has
   //assigned the item in the collection
   PostData.deleteOne({_id:req.params.id}, function(err, data){
     //if an error is thrown because the id can not be matched then the response is an error
