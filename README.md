@@ -16,4 +16,4 @@ Enter the command 'code .' to open the cloned project in Visual Studio Code.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To run the server.js file, navigate to the 'Backend' file and enter 'node server.js' in a seperate console window.
+To run the server.js file, navigate to the `Backend` file and enter `node server.js` in a seperate console window.
