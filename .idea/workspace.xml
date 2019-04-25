@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="58f30052-ce98-4991-a573-d3511616c3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review-list/review-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review-list/review-list.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review-list/review-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review-list/review-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review-update/review-update.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review-update/review-update.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/review-update/review-update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/review-update/review-update.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/upcoming-list/upcoming-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/upcoming-list/upcoming-list.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/review-update/review-update.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="22" lean-forward="true" selection-end-line="35" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -33,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/review-update/review-update.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="867">
               <caret line="51" column="17" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="17" />
             </state>
           </provider>
@@ -42,17 +37,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="680">
               <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="442">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BackEnd/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="173" column="2" selection-start-line="173" selection-start-column="2" selection-end-line="173" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/upcoming-list/upcoming-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -88,14 +101,14 @@
         <option value="$PROJECT_DIR$/src/app/review-add/review-add.component.css" />
         <option value="$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.html" />
         <option value="$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.css" />
+        <option value="$PROJECT_DIR$/src/app/upcoming-list/upcoming-list.component.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
-    <option name="y" value="112" />
-    <option name="width" value="1203" />
-    <option name="height" value="725" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -112,27 +125,25 @@
             <path>
               <item name="ProfessionalITProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProfessionalITProject" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProfessionalITProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProfessionalITProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProfessionalITProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProfessionalITProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProfessionalITProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProfessionalITProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="review-update" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProfessionalITProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProfessionalITProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="upcoming-update" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,6 +186,8 @@
       <workItem from="1550770664256" duration="2159000" />
       <workItem from="1552052815171" duration="26000" />
       <workItem from="1552053044232" duration="4914000" />
+      <workItem from="1556205449848" duration="642000" />
+      <workItem from="1556207818033" duration="1887000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit - Integrated Server">
       <created>1550771965657</created>
@@ -201,12 +214,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7099000" />
+    <option name="totallyTimeSpent" value="9628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="249" width="961" height="579" extended-state="1" />
+    <frame x="96" y="166" width="964" height="580" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24891774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24811219" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,7 +232,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35346755" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35267857" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,13 +249,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Twelfth Commit - Added 'Error404' page and added CSS to the application" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BackEnd/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="173" column="2" selection-start-line="173" selection-start-column="2" selection-end-line="173" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/services/upcoming.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -312,9 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/upcoming-list/upcoming-list.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/review-add/review-add.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -327,29 +330,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/review-update/review-update.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="22" lean-forward="true" selection-end-line="35" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/review-update/review-update.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="867">
           <caret line="51" column="17" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="680">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/upcoming-update/upcoming-update.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="442">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="173" column="2" selection-start-line="173" selection-start-column="2" selection-end-line="173" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/upcoming-list/upcoming-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
